@@ -75,10 +75,6 @@ Node has a small core group of modules (commonly referred to as 'node core') tha
 
 In addition to `fs` and network modules, there are many other base modules in the Node core. There is a module for asynchronously resolving DNS queries called `dns`, a module for getting OS-specific information like the tmpdir location called `os`, a module for allocating binary chunks of memory called `buffer`, some modules for parsing URLs and paths (`url`, `querystring`, `path`), etc. Most if not all of the modules in Node core are there to support Node's main use case: writing fast programs that talk to file systems or networks.
 
-```
-There are three types of modules in Node.js:
-
-1. core modules - the Node core library is made up of about two dozen modules, some lower level like events and stream some higher like http. They come installed with Node automatically.
 
 We will mainly be using the following core modules this week:
 
@@ -87,7 +83,6 @@ We will mainly be using the following core modules this week:
 * path
 * querystring
 * url
-```
 
 The other types of modules:
 
