@@ -63,7 +63,7 @@ fs.readdir('mydir', (err, files) => {
 });
 ```
 
-Note that these methods are asynchronous, meaning that they don't block the execution of the rest of the code while they are running. Instead, they take a callback function that is called once the operation is complete. ~~If you need to perform multiple file operations in a specific order, you can chain them together using the callbacks or use promises or `async/await` syntax.~~
+Note that these methods are asynchronous, meaning that they don't block the execution of the rest of the code while they are running. Instead, they take a callback function that is called once the operation is complete. If you need to perform multiple file operations in a specific order, you can chain them together using the callbacks ~~or use promises or `async/await` syntax.~~
 
 
 These are just a few examples of the tasks you can perform with the `fs` module in Node.js. There are many other methods available for working with files and directories, so be sure to check the [official Node.js documentation](https://nodejs.org/api/fs.html) for more information.
